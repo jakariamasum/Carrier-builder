@@ -1,0 +1,24 @@
+{
+  "job_categories": [
+    {
+      "category_name": "Account and Finance",
+      "category_logo": "fas fa-dollar-sign",
+      "jobs_available": 20
+    },
+    {
+      "category_name": "Creative Design",
+      "category_logo": "fas fa-paint-brush",
+      "jobs_available": 15
+    },
+    {
+      "category_name": "Marketing and Sales",
+      "category_logo": "fas fa-bullhorn",
+      "jobs_available": 30
+    },
+    {
+      "category_name": "Engineering",
+      "category_logo": "fas fa-cogs",
+      "jobs_available": 25
+    }
+  ]
+}
