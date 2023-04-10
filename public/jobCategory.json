@@ -1,24 +1,28 @@
 {
-  "job_categories": [
+  "categories": [
     {
-      "category_name": "Account and Finance",
-      "category_logo": "fas fa-dollar-sign",
-      "jobs_available": 20
+      "id": 1,
+      "name": "Account & Finance",
+      "logo": "https://via.placeholder.com/150",
+      "jobs_available": 23
     },
     {
-      "category_name": "Creative Design",
-      "category_logo": "fas fa-paint-brush",
-      "jobs_available": 15
+      "id": 2,
+      "name": "Creative Design",
+      "logo": "https://via.placeholder.com/150",
+      "jobs_available": 12
     },
     {
-      "category_name": "Marketing and Sales",
-      "category_logo": "fas fa-bullhorn",
-      "jobs_available": 30
+      "id": 3,
+      "name": "Marketing & Sales",
+      "logo": "https://via.placeholder.com/150",
+      "jobs_available": 8
     },
     {
-      "category_name": "Engineering",
-      "category_logo": "fas fa-cogs",
-      "jobs_available": 25
+      "id": 4,
+      "name": "Engineering Job",
+      "logo": "https://via.placeholder.com/150",
+      "jobs_available": 5
     }
   ]
 }

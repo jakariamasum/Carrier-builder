@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='flex justify-between items-center mt-10'>
+        <div className='flex flex-col lg:flex-row justify-between items-center mt-10'>
             <div>
                 <h1 className="font-bold text-7xl text-[#1A1919] w-[570px]">One Step <br /> Closer To Your <br /> <span className='text-[#8C80FE]'>Dream Job</span></h1>
                 <p className='w-[519px] text-[#757575] text-xl mt-5 mb-8'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>

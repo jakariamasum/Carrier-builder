@@ -1,0 +1,149 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "job_title": "Software Engineer",
+            "logo":"https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+            "job_description": "We are looking for a software engineer to join our team and develop high-quality software products. The ideal candidate should have experience in software development and be familiar with the latest software development trends.",
+            "salary": "$90,000 - $120,000",
+            "job_type": ["Full-time","Remote"],
+            "job_responsibilities": [
+                "Design and develop software products using modern software development methodologies.",
+                "Collaborate with cross-functional teams to understand requirements and deliver high-quality software solutions.",
+                "Write clean, maintainable, and well-documented code.",
+                "Participate in code reviews to ensure code quality and maintainability.",
+                "Debug and troubleshoot issues as they arise.",
+                "Contribute to technical documentation and knowledge sharing."
+            ],
+            "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
+            "experience": "2-5 years of experience in software development.",
+            "company_contact": {
+                "name":"Google LLC",
+                "phone": "555-555-5555",
+                "email": "hr@company.com",
+                "address": "123 Main St, Anytown USA"
+            }
+        },
+        {
+            "id": 2,
+            "job_title": "Data Analyst",
+            "logo":"https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+            "job_description": "We are seeking a data analyst to join our team and provide insights into our business operations. The ideal candidate should have a strong background in data analysis and be familiar with data visualization tools.",
+            "salary": "$80,000 - $100,000",
+            "job_type": ["Full-time","Onsite"],
+            "job_responsibilities": [
+                "Develop and implement data analysis strategies to provide insights into business operations.",
+                "Collect and analyze data from various sources to identify trends and patterns.",
+                "Create visualizations and reports to present data in a meaningful way.",
+                "Collaborate with cross-functional teams to understand requirements and deliver high-quality data-driven solutions.",
+                "Communicate insights and recommendations to key stakeholders.",
+                "Contribute to technical documentation and knowledge sharing."
+            ],
+            "educational_requirements": "Bachelor's or Master's degree in Mathematics, Statistics, Economics, or related field.",
+            "experience": "2-5 years of experience in data analysis.",
+            "company_contact": {
+                "name":"Google LLC",
+                "phone": "555-555-5555",
+                "email": "hr@company.com",
+                "address": "123 Main St, Anytown USA"
+            }
+        },
+        {
+            "id": 3,
+            "job_title": "DevOps Engineer",
+            "logo":"https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+            "job_description": "We are seeking a DevOps Engineer to join our team and develop and maintain the infrastructure that supports our software products. The ideal candidate should have experience in DevOps and be familiar with containerization technologies.",
+            "salary": "$100,000 - $130,000",
+            "job_type": ["Full-time","Remote"],
+            "job_responsibilities": [
+                "Develop and maintain the infrastructure that supports our software products.",
+                "Implement and maintain containerization technologies such as Docker and Kubernetes.",
+                "Automate infrastructure deployment and configuration using tools such as Ansible and Terraform.",
+                "Collaborate with cross-functional teams to ensure the reliability and scalability of our infrastructure.",
+                "Debug and troubleshoot issues as they arise.",
+                "Contribute to technical documentation and knowledge sharing."
+            ],
+            "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
+            "experience": "2-5 years of experience in DevOps.",
+            "company_contact": {
+                "name":"Google LLC",
+                "phone": "555-555-5555",
+                "email": "hr@company.com",
+                "address": "123 Main St, Anytown USA"
+            }
+        },
+        {
+            "id": 4,
+            "job_title": "Machine Learning Engineer",
+            "logo":"https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+            "job_description": "We are seeking a machine learning engineer to join our team and develop and maintain our machine learning models. The ideal candidate should have experience in machine learning and be familiar with deep learning frameworks.",
+            "salary": "$120,000 - $150,000",
+            "job_type": ["Full-time","Onsite"],
+            "job_responsibilities": [
+                "Develop and maintain machine learning models that support our software products.",
+                "Collect and preprocess data for machine learning models.",
+                "Train and optimize machine learning models using deep learning frameworks such as TensorFlow and PyTorch.",
+                "Evaluate and monitor the performance of machine learning models in production.",
+                "Collaborate with cross-functional teams to integrate machine learning models into software products.",
+                "Contribute to technical documentation and knowledge sharing."
+            ],
+            "educational_requirements": "Bachelor's or Master's degree in Computer Science, Mathematics, or related field.",
+            "experience": "2-5 years of experience in machine learning.",
+            "company_contact": {
+                "name":"Google LLC",
+                "phone": "555-555-5555",
+                "email": "hr@company.com",
+                "address": "123 Main St, Anytown USA"
+            }
+        },
+        {
+            "id": 5,
+            "job_title": "Frontend Developer",
+            "logo":"https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+            "job_description": "We are seeking a frontend developer to join our team and develop high-quality user interfaces for our software products. The ideal candidate should have experience in frontend development and be familiar with modern web technologies such as React and Vue.js.",
+            "salary": "$90,000 - $120,000",
+            "job_type": ["Full-time","Remote"],
+            "job_responsibilities": [
+                "Develop high-quality user interfaces for our software products.",
+                "Collaborate with cross-functional teams to design and implement new features.",
+                "Optimize user interfaces for performance and accessibility.",
+                "Write automated tests to ensure high code quality and maintainability.",
+                "Contribute to technical documentation and knowledge sharing."
+            ],
+            "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
+            "experience": "2-5 years of experience in frontend development.",
+            "company_contact": {
+                "name":"Google LLC",
+                "phone": "555-555-5555",
+                "email": "hr@company.com",
+                "address": "123 Main St, Anytown USA"
+            }
+        },
+        {
+            "id": 6,
+            "job_title": "Backend Developer",
+            "logo":"https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+            "job_description": "We are seeking a backend developer to join our team and develop scalable and robust server-side solutions for our software products. The ideal candidate should have experience in backend development and be familiar with modern web frameworks such as Django and Express.",
+            "salary": "$100,000 - $130,000",
+            "job_type": ["Full-time","Remote"],
+            "job_responsibilities": [
+                "Develop scalable and robust server-side solutions for our software products.",
+                "Collaborate with cross-functional teams to design and implement new features.",
+                "Optimize server-side solutions for performance and scalability.",
+                "Write automated tests to ensure high code quality and maintainability.",
+                "Contribute to technical documentation and knowledge sharing."
+            ],
+            "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
+            "experience": "2-5 years of experience in backend development.",
+            "company_contact": {
+                "name":"Google LLC",
+                "phone": "555-555-5555",
+                "email": "hr@company.com",
+                "address": "123 Main St, Anytown USA"
+            }
+        }
+        
+    ]
+}
+
+        
