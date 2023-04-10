@@ -3,25 +3,25 @@
     {
       "id": 1,
       "name": "Account & Finance",
-      "logo": "https://via.placeholder.com/150",
+      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
       "jobs_available": 23
     },
     {
       "id": 2,
       "name": "Creative Design",
-      "logo": "https://via.placeholder.com/150",
+      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
       "jobs_available": 12
     },
     {
       "id": 3,
       "name": "Marketing & Sales",
-      "logo": "https://via.placeholder.com/150",
+      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
       "jobs_available": 8
     },
     {
       "id": 4,
       "name": "Engineering Job",
-      "logo": "https://via.placeholder.com/150",
+      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
       "jobs_available": 5
     }
   ]
