@@ -1,27 +1,29 @@
 {
+
+
   "categories": [
     {
       "id": 1,
       "name": "Account & Finance",
-      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
+      "logo": "https://i.ibb.co/zGDyJ5q/finanance1.png",
       "jobs_available": 23
     },
     {
       "id": 2,
       "name": "Creative Design",
-      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
+      "logo": "https://i.ibb.co/1J1Y1Kc/creative.png",
       "jobs_available": 12
     },
     {
       "id": 3,
       "name": "Marketing & Sales",
-      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
+      "logo": "https://i.ibb.co/ph72njs/marketing.png",
       "jobs_available": 8
     },
     {
       "id": 4,
       "name": "Engineering Job",
-      "logo": "https://img.freepik.com/free-vector/stationery-realistic-composition-with-isolated-image-calculator-blank-background-vector-illustration_1284-65975.jpg?w=740&t=st=1681153540~exp=1681154140~hmac=5bb1bc22305d8611b049f6f6fd81ec15b682f9c2c9cb5efbafa0b66fd988026b",
+      "logo": "https://i.ibb.co/JkQ8WTK/engineering.png",
       "jobs_available": 5
     }
   ]

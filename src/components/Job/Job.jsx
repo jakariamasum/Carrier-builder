@@ -1,11 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 
 const Job = () => {
     const JobDetail=useParams();
     //  console.log(JobDetail)
     const jobs=useLoaderData(); 
     const [job,setJob]=useState({});  
+
+    const [cart,setCart]=useState([]);
+    const applied=(apply)=>{
+        const newCart=[...cart,apply];
+        setCart(newCart);
+        addToDb(apply.id)
+    }
+
 
     useEffect(()=>{
         fetch('/featuredJobsData.json')
@@ -18,9 +27,17 @@ const Job = () => {
              
         })
     } ,[])
-      console.log(job)
+
+
+    useEffect(()=>{
+        const stored=getShoppingCart(); 
+        for(const id in stored) 
+        console.log(id)
+    } ,[])
+
+    //   console.log(job)
       const {job_title,salary,company_name,company_email,company_phone,company_address,educational_requirements,job_description,experience,job_responsibilities}=job;
-    return (
+      return (
         <div className='flex mt-32'>
             <div className='w-[65%]'>
                 <div className='text-[#757575] font-semibold'>
@@ -43,7 +60,7 @@ const Job = () => {
                     <p><span className='text-[#474747]'>Email: </span>{company_email}</p>
                     <p><span className='text-[#474747]'>Address: </span>{company_address}</p>
                    </div>
-                <Link><button className='btn bg-[#9379FF]  border-0 mt-6 w-[500px] mx-auto'>Apply Now</button></Link>
+                <Link><button className='btn bg-[#9379FF]  border-0 mt-6 w-[500px] mx-auto' onClick={()=>applied(job)}>Apply Now</button></Link>
                 </div>
         </div>
     );

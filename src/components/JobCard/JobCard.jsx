@@ -19,7 +19,7 @@ const JobCard = (props) => {
                         <p>{salary}</p>
                     </div>
                 </div>
-                <Link to={`Job/${id}`}><button className='btn btn-accent'>View Details</button></Link>
+                <Link to={`Job/${id}`}><button className='btn border-0 text-white bg-[#9379FF] ml-10'>View Details</button></Link>
             </div>
 
         </div>

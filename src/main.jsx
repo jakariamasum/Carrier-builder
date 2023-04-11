@@ -12,6 +12,7 @@ import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
 import Job from './components/Job/Job';
+import AppliedJobs from './components/Applied-jobs/AppliedJobs';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:'/statistics',
         element: <Statistics></Statistics>
+      }, 
+      {
+        path:'/applied-jobs',
+        element: <AppliedJobs></AppliedJobs>
       }, 
       {
         path:'/Job/:id',
