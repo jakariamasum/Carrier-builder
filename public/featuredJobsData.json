@@ -17,12 +17,10 @@
             ],
             "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
             "experience": "2-5 years of experience in software development.",
-            "company_contact": {
-                "name":"Google LLC",
-                "phone": "555-555-5555",
-                "email": "hr@company.com",
-                "address": "123 Main St, Anytown USA"
-            }
+            "company_name": "Google LLC",
+            "company_email": "example@gmail.com",
+            "company_phone": "555-555-5555",
+            "company_address": "123 Main St, Anytown USA"
         },
         {
             "id": 2,
@@ -41,12 +39,10 @@
             ],
             "educational_requirements": "Bachelor's or Master's degree in Mathematics, Statistics, Economics, or related field.",
             "experience": "2-5 years of experience in data analysis.",
-            "company_contact": {
-                "name":"Google LLC",
-                "phone": "555-555-5555",
-                "email": "hr@company.com",
-                "address": "123 Main St, Anytown USA"
-            }
+            "company_name": "Google LLC",
+            "company_email": "example@gmail.com",
+            "company_phone": "555-555-5555",
+            "company_address": "123 Main St, Anytown USA"
         },
         {
             "id": 3,
@@ -65,12 +61,10 @@
             ],
             "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
             "experience": "2-5 years of experience in DevOps.",
-            "company_contact": {
-                "name":"Google LLC",
-                "phone": "555-555-5555",
-                "email": "hr@company.com",
-                "address": "123 Main St, Anytown USA"
-            }
+            "company_name": "Google LLC",
+            "company_email": "example@gmail.com",
+            "company_phone": "555-555-5555",
+            "company_address": "123 Main St, Anytown USA"
         },
         {
             "id": 4,
@@ -89,12 +83,10 @@
             ],
             "educational_requirements": "Bachelor's or Master's degree in Computer Science, Mathematics, or related field.",
             "experience": "2-5 years of experience in machine learning.",
-            "company_contact": {
-                "name":"Google LLC",
-                "phone": "555-555-5555",
-                "email": "hr@company.com",
-                "address": "123 Main St, Anytown USA"
-            }
+            "company_name": "Google LLC",
+            "company_email": "example@gmail.com",
+            "company_phone": "555-555-5555",
+            "company_address": "123 Main St, Anytown USA"
         },
         {
             "id": 5,
@@ -112,12 +104,10 @@
             ],
             "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
             "experience": "2-5 years of experience in frontend development.",
-            "company_contact": {
-                "name":"Google LLC",
-                "phone": "555-555-5555",
-                "email": "hr@company.com",
-                "address": "123 Main St, Anytown USA"
-            }
+            "company_name": "Google LLC",
+            "company_email": "example@gmail.com",
+            "company_phone": "555-555-5555",
+            "company_address": "123 Main St, Anytown USA"
         },
         {
             "id": 6,
@@ -135,12 +125,10 @@
             ],
             "educational_requirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
             "experience": "2-5 years of experience in backend development.",
-            "company_contact": {
-                "name":"Google LLC",
-                "phone": "555-555-5555",
-                "email": "hr@company.com",
-                "address": "123 Main St, Anytown USA"
-            }
+            "company_name": "Google LLC",
+            "company_email": "example@gmail.com",
+            "company_phone": "555-555-5555",
+            "company_address": "123 Main St, Anytown USA"
         }
         
     ]

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import JobCard from './JobCard/JobCard';
+import JobCard from '../JobCard/JobCard';
 
 const FeaturedJobs = () => {
     const [jobs, setJobs] = useState([]);
@@ -9,7 +9,7 @@ const FeaturedJobs = () => {
             .then((response) => response.json())
             .then((data) => setJobs(data.jobs));
     }, []);
-      console.log( jobs)
+    //   console.log( jobs)
     return (
         <div className='mt-32'>
             <div className='text-center'>
