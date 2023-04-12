@@ -3,9 +3,10 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='mt-5  p-5'>
+            <h1 className="font-bold text-5xl mb-5 text-center">Questions and answer</h1>
             <div>
                 <h1 className='text-4xl fontt-bold mb-2'>When should we use context API?</h1>
-                <ul>
+                <ul className='list-disc ml-9'>
                     <li>When we need to update the state of multiple components simultaneously based on a single change in state.</li>
                     <li>When you want to create a theme or style context that can be used throughout your application</li>
                     <li>When you have data or state that needs to be accessed by multiple components at different levels of the component tree.</li>
