@@ -20,7 +20,7 @@ const Job = () => {
         shoppingCart[id] = 1;
     }
     else {
-        toast.error('You have already applied !');
+        toast.error('You have already applied !'); 
     }
         const newCart=[...cart,apply];
         setCart(newCart);
@@ -33,9 +33,9 @@ const Job = () => {
         .then(res=>res.json())
         .then(data=>{
             //  console.log(data)
-            const jobId=data.jobs.find(job=>job.id==JobDetail.id);
+            const jobId=data.jobs.find(job=>job.id==JobDetail.id); 
             //  console.log(jobId)
-             setJob(jobId)
+             setJob(jobId) 
              
         })
     } ,[])
