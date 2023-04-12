@@ -17,7 +17,7 @@ const Job = () => {
         let shoppingCart = getShoppingCart();
     const quantity = shoppingCart[apply.id];
     if (!quantity) {
-        shoppingCart[id] = 1;
+        shoppingCart[apply.id] = 1;
     }
     else {
         toast.error('You have already applied !'); 
