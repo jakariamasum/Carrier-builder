@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const JobCard = (props) => {
     const { job_title, job_type, salary, company_address, logo,id,company_name } = props.job;
     return (
-        <div >
+        <div className='w-full'>
             <div className="card w-full bg-base-100 shadow-xl">
                 <img src={logo} alt="" />
                 <div className="card-body">
