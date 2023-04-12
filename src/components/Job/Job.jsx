@@ -4,7 +4,7 @@ import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollar,faLocationDot,faMessage,faPhone,faCalendarDay} from '@fortawesome/free-solid-svg-icons';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Job = () => {
     const JobDetail=useParams();
