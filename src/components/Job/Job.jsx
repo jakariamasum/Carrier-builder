@@ -10,7 +10,7 @@ const Job = () => {
     const JobDetail=useParams();
     //  console.log(JobDetail)
     const jobs=useLoaderData(); 
-    const [job,setJob]=useState({});  
+    const [job,setJob]=useState({});   
 
     const [cart,setCart]=useState([]);
     const applied=(apply)=>{
