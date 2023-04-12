@@ -1,20 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-
-  
-
 
 const Category = (props) => {
-    // console.log(props.category)
-    const {name,jobs_available,logo}=props.category;
+    const { name, jobs_available, logo } = props.category;
     return (
-        <div className='h-[243px] bg-white pl-14'>
-            <img src={logo} className="mt-10 mb-7" />
-            <div className='px-2 w-[311px] h-[243px]'>
-                <h1 className='text-[#474747] font-bold text-xl'>{name}</h1>
-                <p className='text-[#A3A3A3] font-semibold mt-2'>{jobs_available} Jobs Available</p>
+        <div className='bg-white'>
+            <img src={logo} className="mx-auto my-7 h-24 lg:h-32" alt={`Logo of ${name}`} />
+            <div className='p-4 text-center'>
+                <h1 className='text-gray-700 font-bold text-xl mb-2'>{name}</h1>
+                <p className='text-gray-600 font-semibold'>{jobs_available} Jobs Available</p>
             </div>
-            
         </div>
     );
 };

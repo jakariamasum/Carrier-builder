@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const AppliedJobCard = (props) => {
     // console.log(job)
-     const {logo,job_title,salary,job_type,company_name,company_address}=props.job;
+     const {logo,job_title,salary,job_type,company_name,company_address,id}=props.job;
     return (
         <div className='flex justify-between w-[90%] mx-auto mt-32 items-center'>
             {/* //<h1>oookkkkkkkk</h1> */}
@@ -20,7 +20,7 @@ const AppliedJobCard = (props) => {
                     </div>
             </div>
             <div>
-                <Link><button className='btn btn-primary'>View Details</button></Link>
+                <Link to={`/Job/${id}`}><button className='btn btn-primary'>View Details</button></Link>
             </div>
         </div>
     );
