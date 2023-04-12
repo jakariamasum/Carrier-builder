@@ -10,4 +10,4 @@
 
 ## Live Demo
 
-Check out the live demo of this project at https://admirable-tartufo-14c1fc.netlify.app/
+Check out the live demo of this project at https://glistening-llama-623748.netlify.app/
