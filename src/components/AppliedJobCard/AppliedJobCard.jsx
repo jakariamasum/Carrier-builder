@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDollar,faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const AppliedJobCard = (props) => {
     // console.log(job)
@@ -16,7 +18,10 @@ const AppliedJobCard = (props) => {
                         <p>{company_name}</p>
                         <button className='btn btn-outline text-[#A4A3FF] border border-[#A4A3FF] mr-3'>{job_type[0]}</button>
                         <button className='btn btn-outline  text-[#A4A3FF] border border-[#A4A3FF]'>{job_type[1]}</button>
-                        <p>{company_address}</p>
+                        <div className='flex justify-between gap-5'>
+                        <p><FontAwesomeIcon icon={faLocationDot} className="h-4 w-4 mr-1" aria-hidden="true" />{company_address}</p>
+                        <p><FontAwesomeIcon icon={faDollar} className="h-4 w-4 mr-1" aria-hidden="true" />{salary}</p>
+                        </div>
                     </div>
             </div>
             <div>

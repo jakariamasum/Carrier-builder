@@ -6,7 +6,11 @@ const ErrorPage = () => {
     const error = useRouteError();
     console.error(error);
     return (
-        <div className='flex justify-center items-center h-[100vh]'>
+        <div>
+        <div className='text-center'>
+            <button className='btn btn-accent btn-outline'>Go to Home</button>
+        </div>
+            <div className='flex justify-center items-center h-[100vh]'>
             <img src="https://i.ibb.co/25qLCZ1/404.jpg" className='w-[550px] mr-5' />
             <div>
                 <h1 className='text-7xl font-bold mb-7'>Oops!</h1>
@@ -15,6 +19,7 @@ const ErrorPage = () => {
                     <i>{error.statusText || error.message}</i>
                 </p>
             </div>
+        </div>
         </div>
     );
 };

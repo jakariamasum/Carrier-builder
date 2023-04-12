@@ -15,7 +15,13 @@ const Statistics = () => {
     ];
 
     return (
-        <div className='text-center flex justify-center'>
+        <div>
+            <div>
+                <img src="https://i.ibb.co/9ZbFHzb/banner.png" className="absolute top-[15.12%] bottom-[77.77%] right-[ 81.82%] left-0 w-[240px] h-[100px]" />
+                <h1 className='text-center my-8 font-bold text-3xl'>Assingment Analysis</h1>
+                <img src="https://i.ibb.co/5v8dy8x/Vector.png" className=" absolute left-[87%] right-[-5.47%] top-0 bottom-[79.43%] float-right w-[240px] h-[100px]" />
+            </div>
+            <div className=' flex justify-center'>
                 <PieChart width={400} height={400}>
                     <Pie
                         dataKey="value"
@@ -29,6 +35,7 @@ const Statistics = () => {
                     />
                     <Tooltip />
                 </PieChart>
+            </div>
         </div>
     );
 };

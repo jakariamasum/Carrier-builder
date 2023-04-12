@@ -2,8 +2,15 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='mt-5  p-5'>
-            <h1 className="font-bold text-5xl mb-5 text-center">Questions and answer</h1>
+        <div>
+            
+            <div>
+            <img src="https://i.ibb.co/9ZbFHzb/banner.png" className="absolute top-[15.12%] bottom-[77.77%] right-[ 81.82%] left-0 w-[240px] h-[100px]" />
+            <h1 className='text-center my-8 font-bold text-3xl'>Questions and answer</h1>
+            <img src="https://i.ibb.co/5v8dy8x/Vector.png" className=" absolute left-[87%] right-[-5.47%] top-0 bottom-[79.43%] float-right w-[240px] h-[100px]" />
+            </div>
+
+            <div className='mt-28  p-5'>
             <div>
                 <h1 className='text-4xl fontt-bold mb-2'>When should we use context API?</h1>
                 <ul className='list-disc ml-9'>
@@ -35,6 +42,7 @@ const Blog = () => {
                     useMemo takes two arguments: the first is a function that returns the value you want to memoize, and the second is an array of dependencies that the function depends on. The value returned by the memoized function is cached and only recomputed if one of the dependencies changes.
                 </p>
             </div>
+        </div>
         </div>
     );
 };

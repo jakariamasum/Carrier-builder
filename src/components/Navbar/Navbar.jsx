@@ -11,11 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-base-100">
+    <div className="bg-base-100 relative">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-xl font-bold text-[#757575]">
+            <Link to="/" className="text-xl font-bold text-[#1A1919]">
               Career Builder
             </Link>
           </div>
@@ -33,6 +33,7 @@ const Navbar = () => {
               <Link to="/blog" className=" hover:bg-success px-3 py-2 rounded-md text-sm font-medium">
                 Blog
               </Link>
+              <button className='btn btn-accent btn-outline'>Get Started</button>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -58,6 +59,7 @@ const Navbar = () => {
             <Link to="/blog" className="block text-[#757575] font-medium hover:bg-success rounded-md px-3 py-2">
               Blog
             </Link>
+            <button className='btn btn-accent btn-outline'>Get Started</button>
           </div>
         </div>
       )}
